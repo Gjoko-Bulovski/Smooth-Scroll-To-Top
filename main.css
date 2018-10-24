@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+#section {
+    height: 150vh;
+    background-image: url(https://picsum.photos/1280?image=1051);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-items: center;
+}
+#scroll-top {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+}
+#scroll-top:hover {
+    background: #000;
+}
+html {
+    scroll-behavior: smooth;
+}
